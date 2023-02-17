@@ -1,0 +1,35 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #337d11;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.title {
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 4;
+    text-decoration: underline;
+}
+
+.justify {
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+ol {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    list-style-type: decimal-leading-zero;
+
+    color: rgb(137, 18, 18);
+}

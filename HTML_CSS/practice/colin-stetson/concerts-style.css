@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+
+    font-family: Monsterrat, sans-serif;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #1E1E1E;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+/* Page */
+
+.page {
+    /* height: 100vh;
+    min-height: 100%; */
+    width: 800px;
+    margin: 40px auto;
+
+    border-top-style: solid;
+    border-top-color: #555555;
+    border-bottom-style: solid;
+    border-bottom-color: #555555;
+    border-left-style: solid;
+    border-left-color: #555555;
+    border-right-style: solid;
+    border-right-color: #555555;
+}
+
+
+/* Header */
+
+.header {
+    padding: 15px;
+
+    background-color:#1E1E1E;
+
+    /* border-bottom-style: solid;
+    border-bottom-color: #1a0e0e; */
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    color: #A4A4A4;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-size: 16px;
+    color: #555555;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Nav */
+
+.nav {
+    text-align: center;
+    background-color: #1E1E1E;
+
+    border-top-style: solid;
+    border-top-color: #555555;
+    border-bottom-style: solid;
+    border-bottom-color: #555555;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+
+    color: #A4A4A4;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #3A6EA5;
+}
+
+/* Content */
+
+.content {
+    position: relative;
+    padding: 20px;
+
+    background: url(img/texture-fire-lava.jpeg);
+    /* background-color: #1E1E1E70; */
+
+    -webkit-text-stroke: 0.3px #1E1E1E;
+    color:#A4A4A4;
+    line-height: 1.62;
+}
+
+.concerts-table {
+    width: 100%;
+}
+
+.concerts-table tr {
+    height: 75px;
+}
+
+.concert-date {
+    /* letter-spacing: 2px; */
+    width: 100px;
+}
+
+.concert-link {
+    display: inline-block;
+    padding: 8px 12px;
+
+    color: #A4A4A4;
+    text-decoration: none;
+}
+
+.concert-link:hover {
+    color:#3A6EA5;
+}
+
+.tickets {
+    background-color:#1E1E1E;
+    color:#A4A4A4;
+    border: none;
+    font-size: 14px;
+}
+.tickets:hover {
+    background-color:#3A6EA5;
+}
+
+/* Concerts-body */
+
+.concerts-body {
+    background-image: url("img/bg-texture-lava.jpeg");
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: #121212;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Form */
+.form {
+    width:  500px;
+    padding: 20px;
+    margin: auto;
+
+    background-color: aliceblue;
+}
+
+.title {
+    color: #121212;
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px auto;
+}
+
+.form-input {
+    padding: 5px;
+    border: 1px solid #626262;
+
+    font-family: Times New Roman', Times, serif;
+}
+
+.form-textarea { 
+    width: 200px;
+    height: 75px;
+    padding: 5px;
+     
+    border: 1px solid #626262;
+
+    font-family: Times New Roman', Times, serif;
+}

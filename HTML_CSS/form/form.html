@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Работа с формами</title>
+    </head>
+    <body>
+        <form class="form" action="/" method="post">
+            <h1 class="title">Форма</h1>
+
+            <div class="form-group">
+                <label for="input-name">Ваше имя</label>
+                <input class="form-input" type="text"
+                name="name" placeholder="Ваше имя"
+                id="input_name">
+            </div>
+ 
+            <div class="form-group">
+                    <input class="form-input" type="email"
+                    name="email" placeholder="Ваш email">
+            </div>
+
+            <div class="form-group">
+                <input class="form-input" type="tel"
+                name="tel" placeholder="Ваш номер телефона">
+            </div>
+
+            <div class="form-group">
+                <input class="form-input" type="password"
+                name="password" placeholder="Придумайте пароль">
+            </div>
+
+            <div class="form-group">
+                <textarea class="form-textarea" placeholder="О вас"></textarea>
+            </div>
+
+            <div class="form-group">
+                <select name="country">
+                    <option>Canada</option>
+                    <option>France</option>
+                    <option>Germany</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+
+            <div class="form-group">
+                <label for="agreement">Прочитал условия и согласен с ними.</label>
+                <input type="checkbox" name="agreement" id="agreement">
+            </div>
+
+            <button type="submit">Отправить</button>
+
+        </form>
+    </body> 
+</html>

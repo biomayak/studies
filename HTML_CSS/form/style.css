@@ -37,3 +37,12 @@ body {
 
     font-family: Times New Roman', Times, serif;
 }
+
+.link {
+    color: #1d76dd;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

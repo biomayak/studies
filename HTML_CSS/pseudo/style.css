@@ -1,0 +1,17 @@
+.pseudo-title {
+    margin: 0;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+.pseudo-title::before,
+.pseudo-title::after {
+    content: ""; 
+    margin: auto;
+    display: block;
+    width: 75px;
+    height: 3px;
+
+    background-color: #274fbc;
+}
